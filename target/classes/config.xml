@@ -5,6 +5,6 @@
 <bean id="d" class="dao.DaoImpl">
 </bean>
     <bean id="metier" class = "metier.MetierImpl">
-        <property name="dao" ref="d"/>
+        <property name="dao" ref="d"></property>
     </bean>
 </beans>
